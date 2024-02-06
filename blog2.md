@@ -44,8 +44,20 @@ print(product_title)
 product_price = soup.select('#mainContent > div > div.vim.x-price-section.mar-t-20 > div > div > div > span')
 
 ```
+### 4.
 
-### 4. Comparing Prices:
+The product_price is a span html text scraped from the website. Then using a loop, the value of the line is taken as p.text. The value p.text contains US $ at the beginning. To format this value without "US $" the substring is taken starting from the index 4 and upto 7. The the final value is of text of 3 digit. So it is converted to integer using int(). Later, the product_price_value is printed as integer.
+
+```
+
+for p in product_price:
+    print(p.text)
+    product_price_value = int(p.text[4:7])
+    print(product_price_value)
+
+```
+
+### 5. Comparing Prices:
 
 Compare the extracted price against a predefined threshold (e.g., $400) to determine if it has fallen below the threshold.
 I have implemented a `check_price()` function to compare the product price against $400 and print a notification accordingly.
@@ -58,7 +70,7 @@ def check_price():
         print('Sorry, The price is still $400')
 ```
 
-### 5. Notification Mechanism:
+### 6. Notification Mechanism:
  Implement a notification mechanism to inform the user when the price falls below the threshold. This involves sending a Telegram message to the user.
 ```
 import requests
@@ -78,7 +90,7 @@ def send_to_telegram(message):
 send_to_telegram('Sorry, The price is still $400')
 
 ```
-### 6. 
+### 7. 
 ```
 if __name__ == '__main__':
     check_price()
