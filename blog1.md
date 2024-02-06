@@ -1,4 +1,6 @@
-The problem context of this automation script revolves around monitoring the price of a product on eBay and notifying the user if the price falls below a certain threshold.
+# Problem and Context
+
+The problem and context of this automation script revolves around monitoring the price of a product on eBay and notifying the user if the price falls below a certain threshold.
 
 ### Monitoring eBay Product Price: 
 
@@ -14,11 +16,9 @@ The script is designed to be run periodically or on-demand to continuously monit
 
 ### Notification Mechanism: 
 
-Currently, the script notifies the user by printing a message in the console. However, in a real-world scenario, this notification mechanism could be extended to send notifications via email, SMS, or even Telegram, which was the initial focus of this conversation.
+Currently, the script notifies the user by printing a message in the console. However, in a real-world scenario, this notification mechanism is extended to send notifications via Telegram, which was the initial focus of this conversation.
 
 ### Integration Possibilities: 
 
 This automation script can be further enhanced by integrating it with other services or platforms. For instance, it could be integrated with a Telegram bot to send notifications directly to the user's Telegram account, providing a more seamless and user-friendly experience.
 
-
-The problem context involves automating the monitoring of eBay product prices, comparing them against a predefined threshold, and notifying the user when the price falls below the threshold, with potential integration with messaging services like Telegram for notifications.
