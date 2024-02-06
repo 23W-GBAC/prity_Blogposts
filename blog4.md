@@ -11,23 +11,20 @@ In my case, developing a Python script for monitoring the price of a product inv
 I would estimate that the research phase alone took weeks to complete as I looked into pertinent Python libraries, reviewed documentation, and narrowed the focus of my automation project. The time commitment was increased by writing and testing the script, with an emphasis on making sure it was reliable and flexible enough to work with various system configurations.
 
 **Resource Utilization:**
-Beyond time, there were resource considerations, including the use of a virtual environment for safe testing and development. The script's reliance on external libraries such as psutil and speedtest meant incorporating these resources into the project.
+Beyond time, there were resource considerations, including the use of a virtual environment for safe testing and development.
 
 ### **Anticipated Savings Over the Next 5 Years:**
 
 While the initial investment was substantial, the real measure of the economic benefit lies in the savings and efficiencies gained over time. Here's a breakdown of how my automation project is poised to contribute to time and resource savings in the next five years:
 
 **Time Efficiency:**
-The primary purpose of the automation script is to consistently monitor PC performance and network connection. In a manual scenario, performing these checks regularly would consume a non-trivial amount of time. With automation, these checks happen seamlessly in the background, freeing up valuable time for more strategic and creative tasks.
+The primary purpose of the automation script is to consistently monitor the price of a product. In a manual scenario, performing these checks regularly would consume a non-trivial amount of time. With automation, these checks happen seamlessly in the background, freeing up valuable time for more strategic and creative tasks.
 
 **Reduced Downtime:**
 By proactively monitoring and identifying potential issues, the automation script contributes to minimizing system downtime. This translates to increased productivity as disruptions are addressed promptly, reducing the time and resources that would be spent troubleshooting and resolving issues reactively.
 
 **Long-Term Adaptability:**
 As technology evolves, the script can be adapted and updated to accommodate changes in system requirements or incorporate new features. This long-term adaptability contributes to sustained savings by avoiding the need for frequent overhauls or replacements.
-
-**Resource Optimization:**
-The script's efficiency in resource utilization is a key factor in its economic benefit. It operates with minimal impact on system resources, ensuring that the monitoring process itself doesn't introduce inefficiencies or consume excessive computing power.
 
 ### **Economic Benefit Assessment:**
 
@@ -47,7 +44,5 @@ Beyond the economic perspective, the automation journey has provided invaluable 
 In conclusion, my automation journey has been a nuanced exploration of balancing initial investments with long-term gains. While the upfront costs were tangible in terms of time and resources, the script's efficiency, adaptability, and time savings position it as a valuable asset over the next five years.
 
 As I continue to refine and expand my automation toolkit, the economic benefits extend beyond immediate time and resource savings. The script represents an investment in efficiency, productivity, and skill development, all contributing to a more sustainable and resilient approach to managing technology.
-
-In my next two blogs I would talk about the problems I faced while trying to develop the script and how I figured it out. Hopefully, they would provide solutions to problems you may face. The link is below
 
 ## [3rd_Automation](blog3.md)
