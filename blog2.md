@@ -90,6 +90,28 @@ def send_to_telegram(message):
 send_to_telegram('Sorry, The price is still $400')
 
 ```
+```
+apiToken
+```
+Telegram Bot API token, which is obtained when creating a bot through the BotFather on Telegram.
+
+```
+chatID
+```
+
+The ID of the chat that want to send the message to. This can be a group chat ID or a user ID. Here I used my personal chat Id to test.
+
+```
+apiURL
+```
+The URL of the Telegram Bot API endpoint for sending messages.
+
+```
+requests.post(apiURL, json={'chat_id': chatID, 'text': message})
+```
+Sends a POST request to the Telegram Bot API with the chat ID and message text as JSON data.
+
+The function send_to_telegram encapsulates this logic, making it easy to send messages to Telegram from anywhere in the Python code
 ### 7. 
 ```
 if __name__ == '__main__':
