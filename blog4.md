@@ -45,4 +45,4 @@ In conclusion, my automation journey has been a nuanced exploration of balancing
 
 As I continue to refine and expand my automation toolkit, the economic benefits extend beyond immediate time and resource savings. The script represents an investment in efficiency, productivity, and skill development, all contributing to a more sustainable and resilient approach to managing technology.
 
-## [Automation](blog3.md)
+## [Automation](blog1.md)
