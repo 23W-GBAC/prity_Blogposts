@@ -58,3 +58,5 @@ The script lacks comprehensive error handling, which may lead to unexpected beha
 
 ### Legal Implications: 
 Web scraping may violate the terms of service of some websites and could lead to legal consequences if used improperly.
+
+## [Blog4](blog4.md)
