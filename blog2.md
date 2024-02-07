@@ -97,3 +97,5 @@ if __name__ == '__main__':
 ```
 
 This block ensures that the **check_price** function is executed only if the script is run as the main program (not imported as a module).
+
+## [Blog3](blog3.md)
