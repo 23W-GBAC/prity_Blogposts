@@ -22,3 +22,5 @@ Currently, the script notifies the user by printing a message in the console. Ho
 
 This automation script can be further enhanced by integrating it with other services or platforms. For instance, it could be integrated with a Telegram bot to send notifications directly to the user's Telegram account, providing a more seamless and user-friendly experience.
 
+## [Blog2](blog2.md)
+
