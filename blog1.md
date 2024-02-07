@@ -36,6 +36,19 @@ Before I came to a conclusion on the libraries, just for good measure, I quickly
 
 To sum up, working with ChatGPT gave me confidence and confirmation for my library selections. It underlined how crucial it is to take into account elements like dependability, community support, and usability when making such choices. I now recognize the value of a well-researched library selection. It provides the groundwork for a reliable and effective automation solution in addition to streamlining development.
 
+# Problem 2: Creating a loop to scrap the html text (product price) from the website.
+
+```
+
+for p in product_price:
+    print(p.text)
+    product_price_value = int(p.text[4:7])
+    print(product_price_value)
+
+```
+Here, The product price is a span html text scraped from the website. Then using a loop, the value of the line is taken as p.text. The value p.text contains US $ at the beginning. To format this value without "US $" the substring is taken starting from the index 4 and upto 7. The the final value is of text of 3 digit. So it is converted to integer using int(). Later, the product_price_value is printed as integer.
+
+
 
 
 ## [Blog2](blog2.md)
